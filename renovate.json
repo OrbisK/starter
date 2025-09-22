@@ -29,7 +29,8 @@
   "packageRules": [
     {
       "matchBaseBranches": ["v4-stackblitz"],
-      "ignorePaths": ["pnpm-lock.yaml"]
+      "ignorePaths": ["pnpm-lock.yaml"],
+      "managerFilePatterns": ["!pnpm-lock.yaml"]
     }
   ]
 }
