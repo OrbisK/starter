@@ -4,6 +4,7 @@ on:
   pull_request:
     branches:
       - 'v4-stackblitz'
+      - 'renovate/v4-stackblitz-nuxt'
 
 permissions:
   contents: write
