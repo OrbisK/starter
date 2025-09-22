@@ -25,5 +25,11 @@
     "layer",
     "module-devtools",
     "module"
+  ],
+  "packageRules": [
+    {
+      "matchBaseBranches": ["v4-stackblitz"],
+      "ignorePaths": ["pnpm-lock.yaml"]
+    }
   ]
 }
