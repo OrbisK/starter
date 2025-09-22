@@ -3,7 +3,7 @@ name: reset lockfile
 on:
   push:
     branches:
-      - 'renovate/*-stackblitz*'
+      - 'v4-stackblitz'
 
 permissions:
   contents: write
